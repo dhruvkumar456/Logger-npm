@@ -29,4 +29,5 @@ export class Logger {
 /**
  * "files": ["lib/.."]
  * this command tells npm publish that we only want to push lib/*.. files to the npm registory
+ * Addition to this package.json + README.md file is also pushed to npm registory.
  */
