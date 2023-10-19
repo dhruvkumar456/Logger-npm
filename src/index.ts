@@ -14,9 +14,9 @@ export class Logger {
 }
 
 /**
- * "prepare": "npm rn build"
+ * "prepare": "npm run build"
  * if anyone tries to publish library before build the project(means lib directory doesn't created), 
- * then this command will execute build before npm build
+ * then this command("prepare") will execute before publishing.
  */
 
 /**
@@ -24,7 +24,10 @@ export class Logger {
  * our editor will find available functions & its types in 'lib/index.d.ts', 
  * so that it can show autocomplete feature in code editor & show error/suggestions while writing code.
  */
-
+/**
+ * "main": "lib/index.js",
+ * This is the main entrypoint. This files executes when we import the library.
+ */
 
 /**
  * "files": ["lib/.."]
